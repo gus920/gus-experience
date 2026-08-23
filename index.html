@@ -63,5 +63,12 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Static legal strip. Lives outside the React root so it survives rebuilds
+         only if re-added; see privacy/index.html. -->
+    <div id="legal-strip" style="background:#071d3b;color:#aec3df;font:400 14px/1.6 Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;padding:18px 22px;text-align:center">
+      <span>The GUS Experience is a brand of What-A-Rush Media LLC.</span>
+      <span style="opacity:.5;padding:0 8px">·</span>
+      <a href="/privacy/" style="color:#ff9f13;display:inline-flex;align-items:center;min-height:44px;text-decoration:underline">Privacy Policy</a>
+    </div>
   </body>
 </html>
