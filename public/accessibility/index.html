@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility | The GUS Experience</title>
+    <meta name="description" content="How gusexperience.org is built to work for people who use screen readers, keyboards, magnification or captions, what is still imperfect, and how to report a barrier." />
+    <link rel="canonical" href="https://gusexperience.org/accessibility/" />
+    <meta name="theme-color" content="#071d3b" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/assets/icon-180.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root{--navy:#071d3b;--orange:#ff9f13;--deep:#b23c00;--ink:#1f2937;--soft:#4b5563;--line:#dce9f7;--cream:#fffdf8}
+      *{margin:0;padding:0;box-sizing:border-box}
+      body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--ink);background:var(--cream);line-height:1.7}
+      header{background:var(--navy);padding:22px 0}
+      .wrap{max-width:760px;margin:0 auto;padding:0 22px}
+      header a{display:inline-flex;align-items:center;gap:13px;text-decoration:none;min-height:44px}
+      header img{width:44px;height:44px;border-radius:50%}
+      header span{color:#fff;font-weight:700;letter-spacing:.02em}
+      header span i{color:var(--orange);font-style:normal}
+      main{padding:44px 0 70px}
+      h1{font-size:clamp(1.8rem,5vw,2.4rem);color:var(--navy);line-height:1.15;margin-bottom:10px}
+      .updated{color:var(--soft);font-size:.92rem;margin-bottom:34px}
+      h2{font-size:1.2rem;color:var(--navy);margin:34px 0 10px}
+      p,li{color:var(--ink);margin-bottom:12px}
+      ul{padding-left:20px}
+      a{color:var(--deep)}
+      .box{background:#fff;border:1px solid var(--line);border-left:4px solid var(--orange);border-radius:10px;padding:18px 20px;margin:26px 0}
+      .box p:last-child{margin-bottom:0}
+      table{width:100%;border-collapse:collapse;margin:14px 0 20px;font-size:.95rem}
+      th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+      th{background:#fff;color:var(--navy)}
+      footer{background:var(--navy);color:#aec3df;padding:26px 0;font-size:.9rem}
+      footer a{color:var(--orange);min-height:44px;display:inline-flex;align-items:center}
+      @media(max-width:640px){table,thead,tbody,th,td,tr{display:block}th{display:none}td{border:none;padding:4px 0}tr{border-bottom:1px solid var(--line);padding:12px 0}td:first-child{font-weight:600;color:var(--navy)}}
+    </style>
+  </head>
+  <body>
+    <header><div class="wrap"><a href="/"><img src="/assets/icon-192.png" alt="The GUS Experience logo"><span>THE GUS <i>EXPERIENCE</i></span></a></div></header>
+    <main class="wrap">
+      <h1>Accessibility</h1>
+      <p class="updated">Last reviewed 26 August 2026</p>
+
+      <p>This site should work for you whether you use a screen reader, a keyboard, voice control, magnification, or none of those. If it does not, that is worth fixing and I want to hear about it.</p>
+
+      <h2>The standard this site is built to</h2>
+      <p>gusexperience.org is built to meet the Web Content Accessibility Guidelines (WCAG) version 2.2 at Level AA. That is the standard used to judge whether a website meets the Americans with Disabilities Act.</p>
+
+      <h2>What that means here</h2>
+      <ul>
+        <li>A skip link comes first on the page, so you do not tab through the menu on every visit.</li>
+        <li>Every button, link, menu, and form field works from the keyboard alone.</li>
+        <li>The focus indicator is a dark ring with a light orange halo, sized to stay visible on the white sections and the navy ones.</li>
+        <li>Text meets a contrast ratio of at least 4.5 to 1 against its background. Buttons and large headings meet at least 3 to 1.</li>
+        <li>Every field on the interest form has a real label attached to it, not just placeholder text.</li>
+        <li>The confirmation and error messages on that form are announced to screen readers instead of appearing silently.</li>
+        <li>Both YouTube embeds carry a title, so a screen reader names the video rather than reading "iframe".</li>
+        <li>Photographs and the logo carry alt text. Decorative shapes are hidden from screen readers.</li>
+        <li>If your device is set to reduce motion, the animations and the smooth scrolling stop.</li>
+      </ul>
+
+      <div class="box">
+        <p><strong>Captions on the videos.</strong> The lessons live on YouTube, which generates automatic captions. Automatic captions get names and jargon wrong. Ask for a written version of any lesson and you will get one.</p>
+      </div>
+
+      <h2>What is still imperfect</h2>
+      <ul>
+        <li>The video player is YouTube's, and its controls are outside my control.</li>
+        <li>Booking and payment run through Stripe, which hosts and codes those pages. If checkout blocks you, email me and you can enroll and pay another way.</li>
+        <li>Fonts load from Google Fonts. If they fail to load, the site falls back to your system font and stays readable.</li>
+      </ul>
+
+      <h2>Tell me about a barrier</h2>
+      <p>Describe what you were trying to do and what happened. You do not need the technical term for it. Email <a href="mailto:gus@thegusexperience.org">gus@thegusexperience.org</a>.</p>
+      <p>You will get a reply within two business days. If a fix takes longer, I will tell you when to expect it and give you another way to do what you were trying to do.</p>
+
+      <h2>Coaching itself</h2>
+      <p>Sessions run online and in person. Tell me what you need in order to take part, whether that is captions, a written agenda ahead of time, extra processing time, or a different session length. Ask before you enroll if that helps you decide.</p>
+    </main>
+    <footer><div class="wrap">The GUS Experience is a brand of What-A-Rush Media LLC. &nbsp;&middot;&nbsp; <a href="/">Back to the site</a> &nbsp;&middot;&nbsp; <a href="/privacy/">Privacy Policy</a></div></footer>
+  </body>
+</html>
