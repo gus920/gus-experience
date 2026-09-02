@@ -43,3 +43,7 @@ body{background:#fff;color:var(--navy)}
 /* Accessibility: one focus indicator that clears 3:1 on both the light and
    the navy sections (WCAG 1.4.11 / 2.4.11). */
 :focus-visible{outline:3px solid #071d3b;outline-offset:2px;border-radius:6px;box-shadow:0 0 0 6px rgba(255,176,90,.95)}
+
+/* Purchase terms and policy links */
+.purchase-terms{max-width:700px;margin:24px 0 18px;padding:18px 20px;background:#fff7ee;border:1px solid #f8c99f;border-left:5px solid var(--orange);border-radius:12px}.purchase-terms>p{margin:0 0 14px;color:var(--navy);font-size:14px;line-height:1.6}.purchase-terms label{display:flex;align-items:flex-start;gap:11px;font-size:14px;font-weight:700;line-height:1.5;cursor:pointer}.purchase-terms input{width:20px;height:20px;margin:1px 0 0;accent-color:var(--blue);flex:none}.purchase-terms a{color:var(--orange-ink)}.resource-copy .resource-delivery{max-width:650px}.resource-copy .button:disabled{cursor:not-allowed;opacity:.58;transform:none;box-shadow:none}.footer-links a{color:#fff;padding:12px;font-weight:600;text-decoration:none}.footer-links a:hover{color:#ffb05a}
+@media(max-width:600px){.purchase-terms{text-align:left}.footer-links a{display:inline-flex}}
