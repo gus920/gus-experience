@@ -2,3 +2,7 @@ node_modules/
 dist/
 .DS_Store
 *.log
+
+# Video, audio and brand production assets. These live in the Obsidian vault
+# under "The GUS Experience/Media", not in this public repo.
+brand/
