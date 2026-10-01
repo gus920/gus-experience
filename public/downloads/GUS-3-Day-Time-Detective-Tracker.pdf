@@ -1,74 +1,777 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/Producer (pypdf)
+/Title (tracker)
+/Author (Augusto Kennedy \174 The GUS Experience)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+/Length 6252
 >>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.027451 0.113725 0.286275 rg
+n
+0 767.52 612 24.48 re
+f*
+0.02745098 0.11372549 0.23137255 rg
+n
+0 0 612 20.16 re
+f*
+BT
+/F2 7.5 Tf
+9 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 170.94 7.56 Tm
+(THE GUS EXPERIENCE  \174  Focus\056 Plan\056 Take the shot\056  \174  GusExperience\056org) Tj
+T*
+ET
+Q
+q
+1 0 0 1 34.56 732 cm
+q
+0.027451 0.113725 0.286275 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 22 Tf
+24 TL
+160.791 0 Td
+(3\055Day Time Detective) Tj
+T*
+-160.791 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 34.56 714 cm
+q
+0.34902 0.384314 0.454902 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+157.6358 0 Td
+(Guess\056 Clock\056 Compare\056 Then change one thing\056) Tj
+T*
+-157.6358 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 34.56 654 cm
+q
+0.917647 0.960784 0.984314 rg
+n
+0 50 180.96 -50 re
+f*
+1 0.952941 0.909804 rg
+n
+180.96 50 180.96 -50 re
+f*
+0.917647 0.960784 0.984314 rg
+n
+361.92 50 180.96 -50 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 9 7 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F2 9 Tf
+0.090196 0.12549 0.2 rg
+(1\056 GUESS) Tj
+/F1 9 Tf
+T*
+(How many minutes will the whole routine) Tj
+T*
+(take\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 189.96 7 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F2 9 Tf
+0.090196 0.12549 0.2 rg
+(2\056 CLOCK) Tj
+/F1 9 Tf
+T*
+(Time it from the real start to the real) Tj
+T*
+(finish\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 370.92 13 cm
+q
+BT
+1 0 0 1 0 15 Tm
+12 TL
+/F2 9 Tf
+0.090196 0.12549 0.2 rg
+(3\056 COMPARE) Tj
+/F1 9 Tf
+T*
+(What took longer than you expected\077) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.796078 0.835294 0.882353 RG
+0.8 w
+n
+0 50 m
+542.88 50 l
+S
+n
+0 0 m
+542.88 0 l
+S
+n
+0 0 m
+0 50 l
+S
+n
+542.88 0 m
+542.88 50 l
+S
+n
+180.96 0 m
+180.96 50 l
+S
+n
+361.92 0 m
+361.92 50 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 34.56 645.36 cm
+Q
+q
+1 0 0 1 34.56 571.92 cm
+q
+0.027451 0.113725 0.286275 rg
+n
+0 73.44 542.88 -21.6 re
+f*
+1 1 1 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 55.64 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(ROUTINE I AM TRACKING) Tj
+T*
+ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 7 33.88 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 8 Tf
+10 TL
+(What counts as the real start\077) Tj
+T*
+ET
+Q
+Q
+BT
+1 0 0 1 165.4 34.88 Tm
+T*
+ET
+q
+1 0 0 1 7 7.96 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 8 Tf
+10 TL
+(What counts as completely finished\077) Tj
+T*
+ET
+Q
+Q
+BT
+1 0 0 1 165.4 8.96 Tm
+T*
+ET
+q
+1 J
+1 j
+0.796078 0.835294 0.882353 RG
+0.8 w
+n
+0 73.44 m
+542.88 73.44 l
+S
+n
+0 0 m
+542.88 0 l
+S
+n
+0 0 m
+0 73.44 l
+S
+n
+542.88 0 m
+542.88 73.44 l
+S
+n
+0 25.92 m
+542.88 25.92 l
+S
+n
+158.4 0 m
+158.4 51.84 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 34.56 563.28 cm
+Q
+q
+1 0 0 1 34.56 324.24 cm
+q
+0.02745098 0.11372549 0.23137255 rg
+n
+0 239.04 542.88 -27.36 re
+f*
+1 0.952941 0.909804 rg
+n
+0 211.68 37.44 -211.68 re
+f*
+1 1 1 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 5 220.66 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F2 7.7 Tf
+9.4 TL
+5.59265 0 Td
+(DAY) Tj
+T*
+-5.59265 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42.44 220.66 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F2 7.7 Tf
+9.4 TL
+4.19585 0 Td
+(MY GUESS) Tj
+T*
+-4.19585 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 101.48 215.96 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 11.1 Tm
+/F2 7.7 Tf
+9.4 TL
+10.1365 0 Td
+(ACTUAL) Tj
+T*
+6.62585 0 Td
+(TIME) Tj
+T*
+-16.76235 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 163.4 220.66 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F2 7.7 Tf
+9.4 TL
+25.16795 0 Td
+(WHAT TOOK LONGER\077) Tj
+T*
+-25.16795 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 311 220.66 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F2 7.7 Tf
+9.4 TL
+53.33765 0 Td
+(ONE CHANGE FOR TOMORROW) Tj
+T*
+-53.33765 0 Td
+ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 5 171.7 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F2 7.7 Tf
+9.4 TL
+2.38175 0 Td
+(DAY 1) Tj
+T*
+-2.38175 0 Td
+ET
+Q
+Q
+BT
+1 0 0 1 66.96 172.4 Tm
+T*
+ET
+BT
+1 0 0 1 127.44 172.4 Tm
+T*
+ET
+BT
+1 0 0 1 163.4 172.4 Tm
+T*
+ET
+BT
+1 0 0 1 311 172.4 Tm
+T*
+ET
+q
+1 0 0 1 5 101.14 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F2 7.7 Tf
+9.4 TL
+2.38175 0 Td
+(DAY 2) Tj
+T*
+-2.38175 0 Td
+ET
+Q
+Q
+BT
+1 0 0 1 66.96 101.84 Tm
+T*
+ET
+BT
+1 0 0 1 127.44 101.84 Tm
+T*
+ET
+BT
+1 0 0 1 163.4 101.84 Tm
+T*
+ET
+BT
+1 0 0 1 311 101.84 Tm
+T*
+ET
+q
+1 0 0 1 5 30.58 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F2 7.7 Tf
+9.4 TL
+2.38175 0 Td
+(DAY 3) Tj
+T*
+-2.38175 0 Td
+ET
+Q
+Q
+BT
+1 0 0 1 66.96 31.28 Tm
+T*
+ET
+BT
+1 0 0 1 127.44 31.28 Tm
+T*
+ET
+BT
+1 0 0 1 163.4 31.28 Tm
+T*
+ET
+BT
+1 0 0 1 311 31.28 Tm
+T*
+ET
+q
+1 J
+1 j
+0.027451 0.113725 0.286275 RG
+1 w
+n
+0 239.04 m
+542.88 239.04 l
+S
+n
+0 0 m
+542.88 0 l
+S
+n
+0 0 m
+0 239.04 l
+S
+n
+542.88 0 m
+542.88 239.04 l
+S
+0.796078 0.835294 0.882353 RG
+0.7 w
+n
+0 211.68 m
+542.88 211.68 l
+S
+n
+0 141.12 m
+542.88 141.12 l
+S
+n
+0 70.56 m
+542.88 70.56 l
+S
+n
+37.44 0 m
+37.44 239.04 l
+S
+n
+96.48 0 m
+96.48 239.04 l
+S
+n
+158.4 0 m
+158.4 239.04 l
+S
+n
+306 0 m
+306 239.04 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 34.56 314.88 cm
+Q
+q
+1 0 0 1 34.56 206.88 cm
+q
+0.027451 0.113725 0.286275 rg
+n
+0 108 542.88 -21.6 re
+f*
+1 1 1 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 90.2 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(AFTER DAY 3) Tj
+T*
+ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 7 66 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+(One step I usually forget to count\072) Tj
+T*
+ET
+Q
+Q
+BT
+1 0 0 1 176.2 68 Tm
+T*
+ET
+q
+1 0 0 1 7 37.2 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+(The time I will begin next time\072) Tj
+T*
+ET
+Q
+Q
+BT
+1 0 0 1 176.2 39.2 Tm
+T*
+ET
+q
+1 0 0 1 7 8.4 cm
+q
+0.090196 0.12549 0.2 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+(The one adjustment I will keep\072) Tj
+T*
+ET
+Q
+Q
+BT
+1 0 0 1 176.2 10.4 Tm
+T*
+ET
+q
+1 J
+1 j
+0.796078 0.835294 0.882353 RG
+0.8 w
+n
+0 108 m
+542.88 108 l
+S
+n
+0 0 m
+542.88 0 l
+S
+n
+0 0 m
+0 108 l
+S
+n
+542.88 0 m
+542.88 108 l
+S
+n
+0 57.6 m
+542.88 57.6 l
+S
+n
+0 28.8 m
+542.88 28.8 l
+S
+n
+169.2 0 m
+169.2 86.4 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 34.56 198.24 cm
+Q
+q
+1 0 0 1 34.56 162.24 cm
+q
+0.917647 0.960784 0.984314 rg
+n
+0 36 542.88 -36 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 9 6 cm
+q
+BT
+1 0 0 1 0 15 Tm
+12 TL
+/F2 9 Tf
+0.090196 0.12549 0.2 rg
+(CALM COACHING QUESTION) Tj
+/F1 9 Tf
+T*
+(What did the numbers teach you about tomorrow\047s plan\077) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.96078431 0.51764706 0.14901961 RG
+1 w
+n
+0 36 m
+542.88 36 l
+S
+n
+0 0 m
+542.88 0 l
+S
+n
+0 0 m
+0 36 l
+S
+n
+542.88 0 m
+542.88 36 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 34.56 157.2 cm
+Q
+q
+1 0 0 1 34.56 141.2 cm
+q
+0.34902 0.384314 0.454902 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 8 Tf
+10 TL
+91.58 0 Td
+(Use the timer to collect information\056 Choose one adjustment at a time\056 Educational coaching tool only\056) Tj
+T*
+-91.58 0 Td
+ET
+Q
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/Author (The GUS Experience) /CreationDate (D:20260830121001-04'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260830121001-04'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (GUS 3-Day Time Detective Tracker) /Trapped /False
+/F1 7 0 R
+/F2 8 0 R
 >>
 endobj
 7 0 obj
 <<
-/Count 1 /Kids [ 4 0 R ] /Type /Pages
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2066
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<gN)%,&:O:Sls&#c(aT.`,l?"e(&?;1<[-"Vk)kd7M_RZ3&llt.rV/!1n0V&?>^JSi8FD'h>b'V5!!NW-W;1qJ!r+!n?V`(H#2pS!QadT5^be1MqhR5UEs2_6.JK20_L0Hf!UKWX'F0!5,D(KbOUR$@YZ>`;bE2nFV1E`9+C6eJqE'D36`@ApAnhPF)Ei:P-UoZ^LP*rI/Qh9u,]L/hKQ%*in8&H02qKb^ldKs)5/!CY!WE6^aVNV?JPSk%&dY6;"o2'4Asqc!fMAuGl&S?BN`EYe,[91+%,lC9J'l_o`\/sBj0"upis[.h*/Feg#FNN.^PJ:c1)!80*T@7V*8\Pg++K*<+cKJ05,_^<o(X;,JiIYY)G!#aW,"\=2fKTFm^jI2&Qb@s>teK.G?$3!;ZrO)\:d?t(VU&r\lB[Xh'C)X&,;?j*i$-[+>-Y$Me/.0/'(U/cT&Tc2<*1[p-=q<KH*fa\fMEYLZ]oETYPFO,&i@!lR_!30+3YFci_)c=8t=4moX5gf/I/X&hYU>=RS5i?nT;t7*EN+<U!>/;ug7p3UO6KFI3G[9n>Qj-;NK,/g,-NXq(",h[^r(OLs!-CD0-"Q1<Dp*1^Y:Y_pkA=N0M_<uZCAPJiRXBpg7Sf%DsBdu#lT*'+"FMo<m0;a8XdpdVb%l#8AHI-cE"GT>mc\'A"Yj]Y(ZD";816_7:R._'\B)K1pP04:s3S,q_7LoE?N0h90gb>70oZj62hAYd.R&!1>Cl8>;p;L$KqTWg7(Ecp+Qcp.'XpERmW9e%8Lf;->lT5h\UIX4D0GUck/!oYoAl0AJTD=ss$[N@Q<=(Uj7^sZ5PC@2lbb@tgnl)d[Pqm4ZbKM*?DY"a.Qr(BK)<.@YJ[tK%N.$7NLf&_64O$!u*86[#/ME\>Q/7-C(g+6R*q<TFj^RE#"N%Z?EO!c$qY>0;mXifkiS=FB1p'\Lnkq2*5Ho&0?VD\Q\AD8ru5d]4<r@W;_4\Q3!Xr(iB+(&fSRb0a9Y3uX5JQ4hK/sACbOa15MGOYDH6Q=n@gb22qZ+%5++9S'mh'?[KL'^T%b#mHQ,S<4hJ]SLF,q/<>JQ*2D,HL]?JYT)NQCN:J%H@J/)Hl"_bSk;&3!Pd%I4TO;UQ4`t.oSs2_Jk;nQn4JHAKH-n'#dnFo)oX+PJV'b&*'inB5^p6Kc3/mdD$>#QdA"m-&BaJNUEa-[*7>Ik>89D)&9>G*Xk*sa+>4dngYdB8U*&*.$7%E=cG4"^RR3H)t>2N_`j/Q[!)lo17h)k-ujVp)i#!MAfou@G',j:<uHJBG3h+k9&GUtS8dmr@@L\6St(cP%@kZ)#ju^kT?k7$ghOCgYLWbt^Rk&A&OV[S]`uZ2ej4')\j]Ig9e5K`rMHSE2QJ/\M*0j-(4X+c0>t$('a1=WV>B(*$LF$TE(iD8%)\0"&VgAt'8Tq@1D1[O0F'Q*<s4,i/eFQ<[P8JO+V,6@!='X!?#ubMmu_26L8jRW[O]l[ZFE,l&%=[5NOWC<;?L6^UZcRfnD_0PP.F3M7OP\>V&?`DfS4/R?uE++2)."@f3G^k#?(9uD(Mhn`a+;F1309(f_W'ckgp<SV6iRpCL`B@Ls/.&9i4m&9gf3r@K0+jO&*XW**W7^;U1'l$!qAqTLM)5V$\NSH:5lhh/&iSMpcEiYKTbhB\)&F[&GEm*k>'+,7W:p^kF2rF1mu)06Z..e:!iRWda$knVbJM/SkqU9s_;qdjHfrmJ#up?`>k85s?^ip`_I-1qV<1E':DX=m)^C+&YI@[r)4\^-\G32)`&BY*/QDBpK3VB@BrI31KOt=$C6k5`X:.[i3!$-<[26?T=B=9jac2-1>2\=sW!KQn]Ic>f(#0St+aL(I"TN%aSchq[PN%j'/i79t.0AC5oi('ePa6F<gXJD0<"`ZLp8*qIp%m8X'])Fd0-B2E'&)0/hMmD_)usLJXc:l8$8Gp8k$nq;#PtVSQS]+PO;E%Oe:d6>nd$WNjbGF]"Wk6nNG8;lj'$.$(^!^grjERndGP!^pWCJa)QF@=4gQhggUrVt^&?.D[a\F+&YoR+e\D*;p,CE[oQ~>endstream
 endobj
 xref
 0 9
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000514 00000 n 
-0000000582 00000 n 
-0000000886 00000 n 
-0000000945 00000 n 
+0000000015 00000 n 
+0000000121 00000 n 
+0000000180 00000 n 
+0000000229 00000 n 
+0000000418 00000 n 
+0000006722 00000 n 
+0000006763 00000 n 
+0000006870 00000 n 
 trailer
 <<
-/ID 
-[<272d20625f1153cf02a196a303dd5087><272d20625f1153cf02a196a303dd5087>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 6 0 R
-/Root 5 0 R
 /Size 9
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3102
+6982
 %%EOF

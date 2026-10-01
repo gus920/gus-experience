@@ -1,15 +1,11 @@
-# Prototype Instructions
+# GUS website
+Production is gusexperience.org on GitHub Pages, gh-pages branch. Preserve current public files when deploying.
 
-Run the local server yourself and open the preview in the browser available to this environment. Do not give the user server-start instructions when you can run it.
+## Approved October 1, 2026 brand
+Use navy #071D3B, orange #F58426, and white #FFFFFF. Barlow Condensed bold italic headings, clear body copy. Darker orange #944200 only for small text on white. Education and TGES Sports belong to What-A Rush Media LLC under Gus Legacy Holdings. Never use nonprofit green or nonprofit donation links. TGES Sports is a section of this site.
 
-Before making substantial visual changes, use the Product Design plugin's `get-context` skill when the visual source is unclear or no longer matches the current goal. When the user gives durable prototype-specific design feedback, preferences, or decisions, record them in `AGENTS.md`.
+## Products
+Parent Playbook remains $19, 17 pages. Preserve Stripe checkout, household license and delivery terms. New owner PDF is in the private local outputs. Full paid manuscripts must never be published in this public repository. The planner is a 36-page, 12-week undated student edition. Publish only its four-page sample until checkout and fulfillment are configured. Apparel images are concepts, not available inventory. Do not advertise confirmed tournament dates or accept event payments until supplied. Social rollout remains on hold.
 
-## Approved GUS direction
-- Recreate the personalized “Courtside Momentum” concept with Coach Gus as mascot.
-- Use royal blue, basketball orange, white, navy, warm cream, and deep plum.
-- Core offer is the four-session GUS Teen Success Sprint; primary conversion is the interest list.
-- Brand name is “The GUS Experience”; primary mark is “GUS,” not “TGE.”
-
-When implementing from a selected generated mock, treat that image as the source of truth for layout, component anatomy, density, spacing, color, typography, visible content, and hierarchy.
-
-Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts/prepare-sites-build.mjs`, and `tests/sites-worker.test.mjs` intact so the same local prototype can be handed to Sites. Before a Sites handoff, run `npm run build` and `npm run test:sites`; the build must leave `dist/client/index.html`, `dist/server/index.js`, and `dist/.openai/hosting.json`.
+## Validation
+Build with npm run build. dist/client is the GitHub Pages payload. test:sites checks legacy worker compatibility only. Verify desktop/mobile navigation, preview/download links and checkout destination without making a purchase or submitting live signup data.

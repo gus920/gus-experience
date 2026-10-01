@@ -1,54 +1,37 @@
-# Design QA — The GUS Experience
+# GUS collection design review
 
-- Source visual truth: `/Users/gus/Documents/Codex/2026-08-14/i-want-to-build-the-website/outputs/gus-experience-homepage-tge-shirt-logo.png`
-- Implementation screenshot: `/Users/gus/Documents/Codex/2026-08-14/i-want-to-build-the-website/work/gus-experience-site/implementation-desktop-ny-final.png`
-- Responsive screenshot: `/Users/gus/Documents/Codex/2026-08-14/i-want-to-build-the-website/work/gus-experience-site/implementation-mobile-ny-final.png`
-- Desktop viewport: 1440 × 1024 CSS px; screenshot 1440 × 967 px; browser-reported DPR 2.
-- Mobile viewport/screenshot: 390 × 844 CSS px/pixels.
-- Source pixels: 863 × 1822 (scrollable marketing-page concept).
-- State: homepage at top, default navigation and empty interest form.
+Source visual truth: /Users/gus/Documents/Codex/2026-10-01/need-this-done/outputs/TGES Brand Preview/GUS Experience Education and Sports.png
 
-## Full-view comparison evidence
+Implementation evidence:
+- /Users/gus/Documents/Codex/2026-10-01/need-this-done/work/product-qa/desktop-home.png
+- /Users/gus/Documents/Codex/2026-10-01/need-this-done/work/product-qa/desktop-sports.png
+- /Users/gus/Documents/Codex/2026-10-01/need-this-done/work/product-qa/mobile-sports.png
 
-The source and desktop implementation were opened together for direct visual comparison. The implementation preserves the source's dominant split hero, cream ground, deep-plum condensed headline, orange italic action phrase, Coach Gus anime subject, two-button conversion pattern, and dark-plum/orange supporting sections. The later user-approved royal-blue-and-orange GUS logo is intentionally used in the header.
+The reference is a 1697 x 927 brand board, not a website wireframe. Desktop evidence uses 1440 x 1000 CSS viewport; mobile evidence uses 390 x 844. Saved desktop capture is 1440 x 948 pixels due the browser's visible capture region; mobile capture is 390 x 844. Compared at equal displayed width for overall art direction, not a pixel overlay. The UI adapts the board into an existing storefront and coaching page.
 
-## Focused-region evidence
+## Findings and fixes
+- P2: Desktop Parent Playbook navigation inherited navy on navy. Changed the header to white, replaced the temporary text mark with the generated image wordmark and explicitly set navy navigation. Post-fix desktop screenshot shows every link.
+- P2: Lazy-loaded product images shifted the TGES Sports anchor. Added intrinsic width/height and stable aspect ratios. Post-fix mobile DOM reports sports top 108px and width 390px with no horizontal overflow. Screenshot confirms heading below the sticky header.
+- P2: Interim Playbook cover lacked the reference court detail. Replaced it with an inspected flat cover matching the board, including grayscale basketball court, correct title and navy/orange display type. Rendered final PDF cover inspected in work/product-qa/playbook-1.jpg. Existing 16 interior pages preserve all manuscript text and tables, with updated color operators.
 
-- Hero: headline scale, left/right balance, CTA placement, character crop, and ribbon treatment are visibly aligned with the reference.
-- Character asset: the baked checkerboard background found in the first browser pass was removed and the final PNG now has real alpha.
-- Mobile: the same hierarchy reflows cleanly at 390 × 844; headline, CTAs, mascot, and menu remain readable without horizontal overflow.
-- Supporting sections: skills, four-session sequence, audience, Coach Gus biography, interest form, disclaimer, FAQ, and footer preserve the visual system while adding functional page content below the source's hero.
+## Surface review
+Typography: Barlow Condensed bold/italic follows the condensed sports-inspired reference. Inter/system body copy remains readable. Headings wrap without clipping at desktop and phone sizes. PDF worksheets use embedded Barlow Condensed and Arial.
+Spacing: roomy white education layout, navy sports section, 1180px content width, balanced product image/copy columns. Mobile columns stack. No horizontal overflow at 1440px or 390px.
+Colors: navy #071D3B, orange #F58426, white. Darker orange for text on white maintains contrast. No nonprofit green. No white button labels on the orange background.
+Images: generated education and sports mockups match the board; compressed WebP for web delivery. Product images are explicitly identified as concepts. Final public book samples come from the actual refreshed PDF. No fabricated stock or tournament dates.
+Copy: current $19 Playbook and $300/$425 coaching offers retained. Planner has a four-page free preview and interest email, without an unconfigured paid checkout. Sports plans described as in development.
 
-## Required fidelity surfaces
-
-- Fonts and typography: Barlow Condensed recreates the athletic condensed display hierarchy; Inter provides readable supporting copy. Weights, wrapping, and optical hierarchy are consistent with the mock.
-- Spacing and layout rhythm: desktop hero proportions and mobile stacking are balanced; section spacing and grids remain consistent; no clipped persistent controls or horizontal overflow were observed.
-- Colors and visual tokens: royal blue, basketball orange, crisp white, and deep navy now dominate the site, with only a restrained warm off-white hero ground. The revised Coach Gus jacket uses the same approved New York-inspired palette. Foreground contrast remains accessible.
-- Image quality and asset fidelity: supplied/generated GUS imagery is used directly. Coach Gus's cutout is sharp and background-clean; the approved mascot logo is used in header/footer.
-- Copy and content: the Teen Success Sprint, four sessions, coaching scope, audience, Coach Gus biography, and educational-coaching disclaimer are grounded in the user's saved business materials.
-
-## Interaction and browser verification
-
-- Primary CTA scrolls to the interest form.
-- Interest form accepts name, email, grade, and format and shows the local success state.
-- Mobile menu opens and exposes navigation.
-- Navigation and FAQ controls render correctly.
-- Browser console errors checked after the core form journey: none.
-- Production build and Sites worker tests pass.
-
-## Comparison history
-
-1. First pass: P1 baked checkerboard behind Coach Gus and P2 ghosted full-page concept used as a decorative background.
-2. Fixes: post-processed the character to genuine alpha and removed the ghosted decorative image.
-3. Post-fix evidence: `implementation-desktop-final.png` and `implementation-mobile-final.png` show a clean hero with no checkerboard or ghosted page copy.
-4. User color revision: shifted the site tokens and Coach Gus jacket from plum/mint accents to royal blue, basketball orange, white, and deep navy. Post-fix evidence is recorded in `implementation-desktop-ny-final.png` and `implementation-mobile-ny-final.png`; no new P0/P1/P2 issues were introduced.
-
-## Findings
-
-No actionable P0, P1, or P2 differences remain. The live implementation intentionally expands the selected visual target into a complete functional page and uses the later approved blue-and-orange logo.
+## Interactions and checks
+- Mobile menu opens, navigation closes it, TGES Sports scrolls to the correct section.
+- Desktop Parent Playbook link opens the product page.
+- Book sample link opens the samples section; all three real-page images load.
+- Planner sample and existing free PDFs are present and parse as PDF documents.
+- Required product-license checkbox remains in place. Stripe destinations match the existing site. No checkout purchase or live signup was submitted.
+- Build passes; all four existing compatibility tests pass.
+- Browser console checked for errors/warnings: none reported during local page review. Third-party video playback was not exercised.
+- Only sample/free PDFs belong in public deployment. Full owner Playbook, planner and focus plans stay outside the public repository.
 
 ## Follow-up polish
+Generated logo/cover artwork still needs printer-specific proofing before commercial print production. No print order placed. A physical book image does not represent shipped stock.
 
-- P3: Replace the placeholder Instagram destination and email address once the user's exact public handle and preferred business email are confirmed.
-
-final result: passed
+Final result: passed
