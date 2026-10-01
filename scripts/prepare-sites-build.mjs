@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { copyFileSync, existsSync, mkdirSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -19,3 +19,13 @@ copyFileSync(worker, path.join(dist, "server", "index.js"));
 copyFileSync(hosting, path.join(dist, ".openai", "hosting.json"));
 
 console.log("Prepared Sites build: dist/server/index.js and dist/.openai/hosting.json");
+
+// Real directory route for direct visits and refreshes on GitHub Pages.
+const sportsHtml=readFileSync(index, 'utf8')
+ .replaceAll('https://gusexperience.org/"', 'https://gusexperience.org/sports/"')
+ .replaceAll('The GUS Experience | Focus. Plan. Take the Shot.', 'TGES Sports | The GUS Experience')
+ .replaceAll('The $19 Parent’s Playbook and executive-function coaching from Coach Gus. Practical routines, conversation scripts, and tools for parents supporting teens.', 'The GUS Experience Sports with Coach Gus. Hockey, basketball, golf, tournament plans, and sports stories.')
+ .replaceAll('https://gusexperience.org/assets/education-products.webp', 'https://gusexperience.org/assets/tges-sports-products.webp')
+ .replace(/    <script type="application\/ld\+json">[\s\S]*?<\/script>/, '');
+mkdirSync(path.join(dist, 'client', 'sports'), {recursive:true});
+writeFileSync(path.join(dist, 'client', 'sports', 'index.html'), sportsHtml);

@@ -35,3 +35,9 @@ Copy: current $19 Playbook and $300/$425 coaching offers retained. Planner has a
 Generated logo/cover artwork still needs printer-specific proofing before commercial print production. No print order placed. A physical book image does not represent shipped stock.
 
 Final result: passed
+
+## Live publication, October 1, 2026
+Published at https://gusexperience.org/ through GitHub Pages, production commit 6567c53. All 19 published files match the reviewed build byte for byte. Live homepage and TGES Sports verified in Chrome. Sports heading settles 108px below the viewport top. No broken images found. Screenshots saved in outputs/GUS Website Live.png and outputs/TGES Sports Live.png.
+
+## Sports page and original identity revision
+TGES Sports now lives at /sports/ with direct-load HTML, page-specific metadata, and a navigation link. No sports section or apparel image renders on the homepage. Original logo restored in header/footer, original basketball illustration restored in homepage hero. Desktop and mobile browser checks found no overflow or broken images. Sports-to-home Planner navigation works. Build passed. Final result: passed.
