@@ -35,12 +35,18 @@
       th{background:#fff;color:var(--navy)}
       footer{background:var(--navy);color:#aec3df;padding:26px 0;font-size:.9rem}
       footer a{color:var(--orange);min-height:44px;display:inline-flex;align-items:center}
-      @media(max-width:640px){table,thead,tbody,th,td,tr{display:block}th{display:none}td{border:none;padding:4px 0}tr{border-bottom:1px solid var(--line);padding:12px 0}td:first-child{font-weight:600;color:var(--navy)}}
+      @media(max-width:640px){table{table-layout:fixed;font-size:.875rem}th,td{padding:8px 6px;overflow-wrap:anywhere}}
     </style>
-  <style>@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,800&display=swap');:root{--navy:#071d3b;--blue:#071d3b;--orange:#f58426;--cream:#fff;--ink:#071d3b;--muted:#526070}.hero{background:#071d3b}.brand{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-size:23px}h1,h2,h3{font-family:'Barlow Condensed',sans-serif;letter-spacing:0}.btn,.card,.purchase{border-radius:4px}.kicker{color:#f58426}.cover{filter:none;box-shadow:8px 12px 22px #0003}.comparison .paid,.purchase{border-color:#071d3b}</style></head>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,800&display=swap');:root{--navy:#071d3b;--blue:#071d3b;--orange:#f58426;--cream:#fff;--ink:#071d3b;--muted:#526070}.hero{background:#071d3b}.brand{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-size:23px}h1,h2,h3{font-family:'Barlow Condensed',sans-serif;letter-spacing:0}.btn,.card,.purchase{border-radius:4px}.kicker{color:#f58426}.cover{filter:none;box-shadow:8px 12px 22px #0003}.comparison .paid,.purchase{border-color:#071d3b}</style><style>
+.skip-link{position:fixed;left:-10000px;top:12px;padding:12px 18px;background:#fff;color:#071d3b;z-index:1000}
+.skip-link:focus{left:12px}
+:focus-visible{outline:3px solid #071d3b;outline-offset:3px;box-shadow:0 0 0 6px #fff}
+@media(forced-colors:active){:focus-visible{outline-color:Highlight;box-shadow:none}}
+</style></head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header><div class="wrap"><a href="/"><img src="/assets/icon-192.png" alt="The GUS Experience logo"><span>THE GUS <i>EXPERIENCE</i></span></a></div></header>
-    <main class="wrap">
+    <main class="wrap" id="main" tabindex="-1">
       <h1>Privacy Policy</h1>
       <p class="updated">Last updated 23 August 2026</p>
 
@@ -64,7 +70,7 @@
 
       <h2>Other companies involved when you visit</h2>
       <table>
-        <tr><th>Who</th><th>Why</th><th>What they can see</th></tr>
+        <tr><th scope="col">Who</th><th scope="col">Why</th><th scope="col">What they can see</th></tr>
         <tr><td>GitHub Pages</td><td>Hosts this website</td><td>Standard server records, including your IP address</td></tr>
         <tr><td>Google Fonts</td><td>Loads the typefaces</td><td>Your IP address when fonts load</td></tr>
         <tr><td>YouTube</td><td>Plays the videos embedded on the homepage</td><td>YouTube may set cookies when a video loads, under Google's policies</td></tr>

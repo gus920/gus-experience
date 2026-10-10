@@ -35,42 +35,48 @@
       th{background:#fff;color:var(--navy)}
       footer{background:var(--navy);color:#aec3df;padding:26px 0;font-size:.9rem}
       footer a{color:var(--orange);min-height:44px;display:inline-flex;align-items:center}
-      @media(max-width:640px){table,thead,tbody,th,td,tr{display:block}th{display:none}td{border:none;padding:4px 0}tr{border-bottom:1px solid var(--line);padding:12px 0}td:first-child{font-weight:600;color:var(--navy)}}
+      @media(max-width:640px){table{table-layout:fixed;font-size:.875rem}th,td{padding:8px 6px;overflow-wrap:anywhere}}
     </style>
-  <style>@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,800&display=swap');:root{--navy:#071d3b;--blue:#071d3b;--orange:#f58426;--cream:#fff;--ink:#071d3b;--muted:#526070}.hero{background:#071d3b}.brand{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-size:23px}h1,h2,h3{font-family:'Barlow Condensed',sans-serif;letter-spacing:0}.btn,.card,.purchase{border-radius:4px}.kicker{color:#f58426}.cover{filter:none;box-shadow:8px 12px 22px #0003}.comparison .paid,.purchase{border-color:#071d3b}</style></head>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,800&display=swap');:root{--navy:#071d3b;--blue:#071d3b;--orange:#f58426;--cream:#fff;--ink:#071d3b;--muted:#526070}.hero{background:#071d3b}.brand{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-size:23px}h1,h2,h3{font-family:'Barlow Condensed',sans-serif;letter-spacing:0}.btn,.card,.purchase{border-radius:4px}.kicker{color:#f58426}.cover{filter:none;box-shadow:8px 12px 22px #0003}.comparison .paid,.purchase{border-color:#071d3b}</style><style>
+.skip-link{position:fixed;left:-10000px;top:12px;padding:12px 18px;background:#fff;color:#071d3b;z-index:1000}
+.skip-link:focus{left:12px}
+:focus-visible{outline:3px solid #071d3b;outline-offset:3px;box-shadow:0 0 0 6px #fff}
+@media(forced-colors:active){:focus-visible{outline-color:Highlight;box-shadow:none}}
+</style></head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header><div class="wrap"><a href="/"><img src="/assets/icon-192.png" alt="The GUS Experience logo"><span>THE GUS <i>EXPERIENCE</i></span></a></div></header>
-    <main class="wrap">
+    <main class="wrap" id="main" tabindex="-1">
       <h1>Accessibility</h1>
-      <p class="updated">Last reviewed 26 August 2026</p>
+      <p class="updated">Last reviewed October 10, 2026</p>
 
       <p>This site should work for you whether you use a screen reader, a keyboard, voice control, magnification, or none of those. If it does not, that is worth fixing and I want to hear about it.</p>
 
-      <h2>The standard this site is built to</h2>
-      <p>gusexperience.org is built to meet the Web Content Accessibility Guidelines (WCAG) version 2.2 at Level AA. That is the standard used to judge whether a website meets the Americans with Disabilities Act.</p>
+      <h2>Our accessibility goal</h2>
+      <p>Our goal is to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA. We are improving the site and have not completed a full conformance evaluation.</p>
 
-      <h2>What that means here</h2>
+      <h2>Using this site</h2>
       <ul>
-        <li>A skip link comes first on the page, so you do not tab through the menu on every visit.</li>
-        <li>Every button, link, menu, and form field works from the keyboard alone.</li>
-        <li>The focus indicator is a dark ring with a light orange halo, sized to stay visible on the white sections and the navy ones.</li>
-        <li>Text meets a contrast ratio of at least 4.5 to 1 against its background. Buttons and large headings meet at least 3 to 1.</li>
-        <li>Every field on the interest form has a real label attached to it, not just placeholder text.</li>
-        <li>The confirmation and error messages on that form are announced to screen readers instead of appearing silently.</li>
-        <li>Both YouTube embeds carry a title, so a screen reader names the video rather than reading "iframe".</li>
-        <li>Photographs and the logo carry alt text. Decorative shapes are hidden from screen readers.</li>
-        <li>If your device is set to reduce motion, the animations and the smooth scrolling stop.</li>
+        <li>Use the Skip to content link to move past the header.</li>
+        <li>Use Tab and Shift+Tab to move between controls. Open the mobile menu with Enter or Space. Press Escape to close it and return to the menu button.</li>
+        <li>Keyboard focus uses a navy outline and white outer ring to help it stay visible on light and dark backgrounds.</li>
+        <li>The interest form has visible labels, required-field instructions, and contrasting field borders.</li>
+        <li>The three book sample pages have complete text versions below their images.</li>
+        <li>Photographs and product covers have image descriptions. Decorative icons are hidden from screen readers.</li>
+        <li>Each of the three YouTube embeds has a descriptive title.</li>
+        <li>The site respects your device’s reduced-motion setting for scrolling and transitions.</li>
       </ul>
 
-      <div class="box">
-        <p><strong>Captions on the videos.</strong> The lessons live on YouTube, which generates automatic captions. Automatic captions get names and jargon wrong. Ask for a written version of any lesson and you will get one.</p>
-      </div>
+      <h2>What we reviewed</h2>
+      <p>The October 2026 review covered the homepage, Parent Playbook, Sports, Terms, Privacy, and Accessibility pages. We checked navigation, form labels, keyboard focus, contrast, and page layout at a narrow screen width. Our contrast targets are 4.5 to 1 for normal text, including button text, and 3 to 1 for qualifying large text and essential control boundaries.</p>
 
-      <h2>What is still imperfect</h2>
+      <h2>Work that remains</h2>
       <ul>
-        <li>The video player is YouTube's, and its controls are outside my control.</li>
-        <li>Booking and payment run through Stripe, which hosts and codes those pages. If checkout blocks you, email me and you can enroll and pay another way.</li>
-        <li>Fonts load from Google Fonts. If they fail to load, the site falls back to your system font and stays readable.</li>
+        <li>A full screen-reader review with VoiceOver and NVDA, including form confirmation and error announcements.</li>
+        <li>Accessibility checks of downloadable PDFs, including their tags and reading order.</li>
+        <li>A review of video caption accuracy and any visual information that needs an audio description. The videos use YouTube captions. Ask for a written version if you need one.</li>
+        <li>Further checks of zoom, text spacing, and high-contrast display settings.</li>
+        <li>A separate review of Stripe checkout. If checkout blocks you, email us for another way to enroll and pay.</li>
       </ul>
 
       <h2>Tell me about a barrier</h2>
